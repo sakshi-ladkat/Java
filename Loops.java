@@ -28,6 +28,16 @@ public class Loops {
             n++;
 
         } while (n <= 4);
-    }
 
+        for (int k = 0; k <= 4; k++) {
+            System.out.println("Hi" + k);
+        }
+
+        for (int m = 1; m <= 5; m++) {
+            for (int l = 1; l <= 9; l++) {
+                System.out.println(" " + (l + 8));
+            }
+        }
+
+    }
 }
